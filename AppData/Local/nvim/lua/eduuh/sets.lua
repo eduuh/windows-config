@@ -1,0 +1,30 @@
+vim.opt.backup = false                                  -- creates a backup file
+vim.opt.clipboard = "unnamedplus"                       -- allow neovim to access the system clipboard
+vim.opt.cmdheight = 1                                   -- more space in nvim command line for displaying messages
+vim.opt.completeopt = "menuone,noinsert,menu"           -- mostly for cmp
+vim.opt.conceallevel = 0                                -- so that `` is  visible in markdown files
+vim.opt.fileencoding = "utf-8"                          -- the encoding of written file
+vim.opt.hidden = true                                   -- required to keep multiple buffers and open multiple buffers
+vim.opt.hlsearch = true                                 -- highlight all matches on previous search pattern
+vim.opt.ignorecase = true                               -- ignore case in search pattern
+vim.opt.mouse = "a"                                     -- allow the mouse to be used in neovim
+vim.opt.showmode = false                                -- no need to see -- INSERT-- anymore
+vim.opt.smartcase = true                                -- smart case
+vim.opt.smartindent = true                              -- Making identing smarter
+vim.opt.splitbelow= true                                -- force all horizontal splits to go below current window
+vim.opt.splitright = true                               -- force all vertical splits to go to the right of current window.
+vim.opt.swapfile = false                                -- creates a swapfile; disables
+vim.opt.termguicolors = true                            -- set term gui colors (most terminal support this)
+vim.opt.timeoutlen= 500                                 -- time to wait for a mapped sequence to complete (in milliseconds)
+vim.opt.undofile=true                                   -- enables persistent undo
+vim.opt.updatetime=300                                  -- faster completion (4000 ms default)
+vim.opt.writebackup=false                              -- if a file is being edited by another program
+vim.opt.expandtab = false                                -- convert tabs to spaces
+vim.opt.shiftwidth = 2                                  -- the number of space inserted for each indetntation
+vim.opt.tabstop = 4                                     -- Insert 2 spaces for tab
+vim.opt.cursorline = true                               -- highlight the current line
+vim.opt.signcolumn = "yes"                              -- always show the sign colum, otherwise it would shift text each time
+vim.opt.scrolloff = 8
+vim.opt.colorcolumn = "80"
+
+
